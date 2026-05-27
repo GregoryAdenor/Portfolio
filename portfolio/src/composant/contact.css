@@ -1,0 +1,99 @@
+.contact-footer {
+    width: 100vw;
+    background: #0c0c17; /* Fond encore plus sombre pour marquer la fin du site */
+    border-top: 1px solid rgba(0, 255, 255, 0.1);
+    padding: 5rem 6vw 2rem 6vw;
+    box-sizing: border-box;
+}
+
+.contact-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.contact-text {
+    text-align: center;
+}
+
+.contact-text h2 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.contact-text p {
+    color: #a0a0b8;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+/* Bouton Email Cyber */
+.email-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background: rgba(0, 255, 255, 0.03);
+    border: 1px solid #00ffff;
+    color: #00ffff;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 12px;
+    font-family: monospace;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.1);
+}
+
+.email-btn:hover {
+    background: #00ffff;
+    color: #0c0c17;
+    box-shadow: 0 0 25px rgba(0, 255, 255, 0.4);
+    transform: translateY(-2px);
+}
+
+/* Section Bas de page */
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    padding-top: 2rem;
+}
+
+.copyright {
+    color: #60607a;
+    font-family: monospace;
+    font-size: 0.85rem;
+}
+
+.footer-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-links a {
+    color: #a0a0b8;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #00ffff;
+    text-shadow: 0 0 8px rgba(0, 255, 255, 0.6);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .footer-bottom {
+        flex-direction: column-reverse;
+        gap: 1.5rem;
+        text-align: center;
+    }
+}

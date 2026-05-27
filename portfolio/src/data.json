@@ -1,0 +1,353 @@
+{
+    "title": 
+    [
+        "Student",
+        "Full Stack Developer",
+        "Backend Enthusiast",
+        "Curious Programmer"
+    ],
+    
+    
+    "description":{
+        "en": "Curious and thorough, I create a variety of projects with a focus on versatility and creativity. I enjoy experimenting with new ideas and learning from every project.",
+        "fr": "Curieux et rigoureux, je réalise une variété de projets avec un accent sur la polyvalence et la créativité. J'aime expérimenter de nouvelles idées et apprendre de chaque projet."
+    },
+
+    "skills":{
+        "tools": [
+            {
+                "tech": "Git",
+                "image": "https://skillicons.dev/icons?i=git"
+            },
+            {
+                "tech": "GitHub",
+                "image": "https://skillicons.dev/icons?i=github"
+            },
+            {
+                "tech": "Docker",
+                "image": "https://skillicons.dev/icons?i=docker"
+            },
+            {
+                "tech": "Linux",
+                "image": "https://skillicons.dev/icons?i=linux"
+            }
+        ],
+
+        "frontend": [
+            {
+                "tech": "HTML",
+                "image": "https://skillicons.dev/icons?i=html"
+            },
+            {
+                "tech": "CSS",
+                "image": "https://skillicons.dev/icons?i=css"
+            },
+            {
+                "tech": "JavaScript",
+                "image": "https://skillicons.dev/icons?i=javascript"
+            },
+            {
+
+                "tech": "React",
+                "image": "https://skillicons.dev/icons?i=react"
+            },
+            {
+                "tech": "Vue",
+                "image": "https://skillicons.dev/icons?i=vue"
+            },
+            {
+                "tech": "Vite",
+                "image": "https://skillicons.dev/icons?i=vite"
+            }
+
+        ],
+
+        "backend":[
+            {
+                "tech": "Node.js",
+                "image": "https://skillicons.dev/icons?i=nodejs"
+            },
+            {
+                "tech": "Express.js",
+                "image": "https://skillicons.dev/icons?i=expressjs"
+            },
+            {
+                "tech": "PHP",
+                "image": "https://skillicons.dev/icons?i=php"
+            }
+        ],
+
+        "others":[
+            {
+                "tech": "Python",
+                "image": "https://skillicons.dev/icons?i=python"
+            },
+            {
+                "tech": "MySql",
+                "image": "https://skillicons.dev/icons?i=mysql"
+            }
+        ]
+    },
+
+    "projects": {
+        "en": [
+            {
+                "id": 1,
+                "title": "E-TODO",
+                "type": "Academic Project",
+                "context": "First web development project completed in a team of 3 during the first year at Epitech over a period of 3 weeks.",
+                "subtitle": "Collaborative task management web application with REST API and Kanban interface.",
+                "description": "Development of a task management application inspired by Kanban boards. The project involved designing a secure REST API using Node.js and MySQL, as well as building a responsive user interface to manage personal tasks. The application includes a complete JWT-based authentication system, user management, and full CRUD functionality for todos. Several bonus features were implemented to enhance user experience, including a group system allowing users to share tasks within teams. The interface was designed with a sticky-note board aesthetic to create a more visual and intuitive experience.",
+                "technical_challenges": [
+                  "Learning and setting up Docker and Docker Compose to containerize the application",
+                  "Designing a structured Express backend with separated routes, middleware, and database access",
+                  "Implementing secure authentication using JWT and password hashing",
+                  "Handling communication between the React frontend and the REST API",
+                  "Building a responsive Kanban-style interface with drag and drop functionality"
+                ],
+                "features": [
+                  "User registration and authentication",
+                  "JWT-based route protection",
+                  "Full CRUD for tasks",
+                  "User management system",
+                  "Responsive Kanban interface",
+                  "Drag and drop task management",
+                  "Search and filtering features",
+                  "Collaborative group system (bonus feature)"
+                ],
+                "technologies": [
+                  "Node.js",
+                  "Express",
+                  "MySQL",
+                  "JWT",
+                  "bcryptjs",
+                  "Docker",
+                  "React",
+                  "CSS"
+                ],
+                "role": "Main backend developer: authentication system, REST API design, server architecture, and database implementation. Also contributed to Docker setup, frontend components, and responsive design.",
+                "image": "/todo.png"
+            },
+            {
+              "id": 2,
+              "title": "Veiloo",
+              "type": "Academic Project",
+              "context": "Social web application designed and developed in a team of 4 during a 4-week Product Design project at Epitech. The project also included user research, wireframing, mockups, prototyping, business reflection, and a hackathon week alongside MVP development.",
+              "subtitle": "Pinterest-inspired social platform focused on image sharing and community interaction.",
+              "description": "Veiloo is a social media web application inspired by Pinterest and Reddit, designed around visual content sharing and user interaction. The platform allows users to publish images, interact through likes and comments, build connections with friends, and exchange messages through an integrated chat system. Beyond the initial MVP requirements, the project evolved into a more complete social platform featuring personalized feeds, notifications, dark mode, responsive layouts, and user profile management. The objective was to create a modern and engaging experience centered around content discovery and community interaction while maintaining a scalable fullstack architecture.",
+              "technical_challenges": [
+                "Designing and optimizing SQL queries for social interactions, feeds, and relationships between users",
+                "Managing backend architecture with multiple interconnected API routes and database models",
+                "Handling application performance with increasing amounts of social content and interactions",
+                "Developing the project under tight deadlines alongside other academic work and a parallel hackathon week",
+                "Building a responsive user experience inspired by modern social platforms"
+              ],
+              "features": [
+                "User registration and authentication",
+                "JWT-secured authentication system",
+                "Image posting system",
+                "Likes and comments",
+                "Friend system",
+                "Private messaging system",
+                "Notifications",
+                "User profiles",
+                "Personalized feed",
+                "Responsive interface",
+                "Dark mode"
+              ],
+              "technologies": [
+                "React",
+                "CSS",
+                "Node.js",
+                "Express",
+                "MySQL",
+                "JWT"
+              ],
+              "role": "Main contributor on the backend architecture, including database design, API development, authentication system, and SQL query management. Also contributed to frontend components and overall application integration.",
+              "team_size": 4,
+              "duration": "4 weeks",
+              "status": "Functional MVP developed locally",
+              "image": "/veiloo.png"
+            },
+            {
+              "id": 3,
+              "title": "NovaJob",
+              "type": "Fullstack Data & AI Platform",
+              "context": "Advanced job aggregation platform developed in a team of 4 over 5 weeks. The project combined product design, fullstack development, data engineering, AI-based recommendations, and production-grade deployment practices.",
+              "subtitle": "AI-powered job aggregator with personalized recommendations and advanced filtering system.",
+              "description": "NovaJob is a fullstack job aggregation platform that collects real job offers through the WeLoveDevs API, normalizes and enriches the data, and provides users with an advanced search and recommendation experience. The platform allows users to explore job offers through multi-criteria filtering (contract type, skills, location, tags), company-driven postings, and personalized dashboards. A key component of the system is its AI recommendation engine, which uses sentence transformers (all-MiniLM-L6-v2) to analyze user interactions and suggest similar job opportunities based on behavioral patterns. The application is fully deployed and integrates a complete backend, frontend, database layer, and CI/CD pipeline.",
+              "technical_challenges": [
+                "Designing a scalable architecture with Next.js frontend, Express backend, Python AI service, and PostgreSQL database",
+                "Handling data ingestion from WeLoveDevs API with normalization and rate-limit constraints",
+                "Implementing a recommendation system using sentence transformers (all-MiniLM-L6-v2)",
+                "Managing Prisma ORM with PostgreSQL in a TypeScript environment",
+                "Deploying a fullstack system with multiple services (frontend, backend, database) and CI/CD via GitHub Actions",
+                "Optimizing performance under data-heavy filtering and search operations"
+              ],
+              "features": [
+                "User authentication system with JWT, refresh tokens, and secure cookies",
+                "Advanced search with multi-tag filtering (location, contract type, skills)",
+                "Real-time offer exploration dashboard",
+                "Company interface for posting job offers",
+                "Admin panel for moderation and management",
+                "Data scraping and ingestion pipeline from WeLoveDevs",
+                "Job scoring and ranking system",
+                "Analytics and data visualization dashboard",
+                "AI-powered job recommendations based on user behavior",
+                "User interaction tracking system"
+              ],
+              "technologies": [
+                "Next.js",
+                "React",
+                "TypeScript",
+                "Tailwind CSS",
+                "Node.js",
+                "Express",
+                "Python",
+                "PostgreSQL",
+                "Prisma",
+                "JWT",
+                "Docker",
+                "GitHub Actions",
+                "Sentence Transformers (all-MiniLM-L6-v2)"
+              ],
+              "role": "Backend and data-focused contributor: API design, authentication system, database modeling with Prisma/PostgreSQL, data normalization pipeline, and integration of AI recommendation system. Also contributed to deployment architecture and system performance optimization.",
+              "team_size": 4,
+              "duration": "5 weeks",
+              "status": "Fully functional and deployed, with potential for further optimization",
+              "image": "/novajob.png"
+            }
+        ],
+        "fr": [
+            {
+                "id": 1,
+                "title": "E-TODO",
+                "type": "Projet Académique",
+                "context": "Premier projet web réalisé en équipe de 3 pendant la première année à Epitech sur une durée de 3 semaines.",
+                "subtitle": "Application web de gestion de tâches collaborative avec API REST et interface Kanban.",
+                "description": "Développement d'une application de gestion de tâches inspirée des tableaux Kanban. Le projet consistait à concevoir une API REST sécurisée avec Node.js et MySQL, puis à créer une interface utilisateur responsive permettant de gérer des tâches personnelles. L'application inclut un système complet d'authentification JWT, la gestion des utilisateurs ainsi qu'un CRUD complet des todos. Plusieurs fonctionnalités bonus ont également été ajoutées afin d'améliorer l'expérience utilisateur, notamment un système de groupes permettant de partager des tâches entre plusieurs utilisateurs. L'interface a été pensée autour d'une direction artistique de post-it sur tableau afin de rendre l'expérience plus visuelle et intuitive.",
+                "technical_challenges": [
+                  "Découverte et mise en place de Docker et Docker Compose pour containeriser l'application",
+                  "Architecture backend Express avec séparation des routes, middlewares et accès base de données",
+                  "Gestion de l'authentification sécurisée avec JWT et hash des mots de passe",
+                  "Communication entre le frontend React et l'API REST",
+                  "Création d'une interface responsive de type Kanban avec drag and drop"
+                ],
+                "features": [
+                  "Authentification et inscription utilisateur",
+                  "Protection des routes via JWT",
+                  "CRUD complet des tâches",
+                  "Gestion des utilisateurs",
+                  "Interface Kanban responsive",
+                  "Drag and drop des tâches",
+                  "Recherche et filtres",
+                  "Système de groupes collaboratifs (bonus)"
+                ],
+                "technologies": [
+                  "Node.js",
+                  "Express",
+                  "MySQL",
+                  "JWT",
+                  "bcryptjs",
+                  "Docker",
+                  "React",
+                  "CSS"
+                ],
+                "role": "Développement principal du backend : authentification, API REST, architecture serveur et base de données. Participation à la configuration Docker ainsi qu'à certains composants frontend et au responsive design.",
+                "image": "/todo.png"
+            },
+            {
+              "id": 2,
+              "title": "Veiloo",
+              "type": "Projet académique",
+              "context": "Application web sociale conçue et développée en équipe de 4 durant un projet de Product Design de 4 semaines à Epitech. Le projet comprenait également de la recherche utilisateur, du wireframing, des maquettes, du prototypage, une réflexion business ainsi qu’une semaine de hackathon en parallèle du développement du MVP.",
+              "subtitle": "Plateforme sociale inspirée de Pinterest centrée sur le partage d’images et les interactions communautaires.",
+              "description": "Veiloo est une application web de réseau social inspirée de Pinterest et Reddit, pensée autour du partage de contenu visuel et des interactions entre utilisateurs. La plateforme permet aux utilisateurs de publier des images, d’interagir via des likes et des commentaires, de créer des connexions avec des amis et d’échanger des messages grâce à un système de chat intégré. Au-delà des exigences initiales du MVP, le projet a évolué vers une plateforme sociale plus complète intégrant un fil d’actualité personnalisé, des notifications, un mode sombre, une interface responsive ainsi que la gestion des profils utilisateurs. L’objectif était de créer une expérience moderne et engageante centrée sur la découverte de contenu et l’interaction communautaire, tout en conservant une architecture fullstack scalable.",
+              "technical_challenges": [
+                "Conception et optimisation de requêtes SQL pour les interactions sociales, les fils d’actualité et les relations entre utilisateurs",
+                "Gestion d’une architecture backend composée de multiples routes API et modèles de base de données interconnectés",
+                "Gestion des performances de l’application face à l’augmentation du volume de contenu et d’interactions sociales",
+                "Développement du projet dans des délais serrés en parallèle d’autres travaux académiques et d’une semaine de hackathon",
+                "Création d’une expérience utilisateur responsive inspirée des plateformes sociales modernes"
+              ],
+              "features": [
+                "Inscription et authentification des utilisateurs",
+                "Système d’authentification sécurisé avec JWT",
+                "Système de publication d’images",
+                "Likes et commentaires",
+                "Système d’amis",
+                "Messagerie privée",
+                "Notifications",
+                "Profils utilisateurs",
+                "Fil d’actualité personnalisé",
+                "Interface responsive",
+                "Mode sombre"
+              ],
+              "technologies": [
+                "React",
+                "CSS",
+                "Node.js",
+                "Express",
+                "MySQL",
+                "JWT"
+              ],
+              "role": "Contributeur principal sur l’architecture backend, incluant la conception de la base de données, le développement des API, le système d’authentification et la gestion des requêtes SQL. Participation également au développement de composants frontend et à l’intégration globale de l’application.",
+              "team_size": 4,
+              "duration": "4 semaines",
+              "status": "MVP fonctionnel développé en local",
+              "image": "/veiloo.png"
+            },
+
+            {
+            "id": 3,
+            "title": "NovaJob",
+            "type": "Plateforme fullstack Data & IA",
+            "context": "Plateforme avancée d’agrégation d’offres d’emploi développée en équipe de 4 sur une durée de 5 semaines. Le projet combinait product design, développement fullstack, ingénierie des données, recommandations basées sur l’IA et pratiques de déploiement de niveau production.",
+            "subtitle": "Agrégateur d’offres d’emploi basé sur l’IA avec recommandations personnalisées et système de filtrage avancé.",
+            "description": "NovaJob est une plateforme fullstack d’agrégation d’offres d’emploi qui collecte des offres réelles via l’API WeLoveDevs, normalise et enrichit les données, puis propose aux utilisateurs une expérience avancée de recherche et de recommandation. La plateforme permet d’explorer les offres grâce à des filtres multi-critères (type de contrat, compétences, localisation, tags), des publications orientées entreprises et des tableaux de bord personnalisés. Un élément clé du système est son moteur de recommandation basé sur l’IA, qui utilise des sentence transformers (all-MiniLM-L6-v2) pour analyser les interactions des utilisateurs et suggérer des offres similaires en fonction de leurs comportements. L’application est entièrement déployée et intègre une stack complète avec backend, frontend, base de données et pipeline CI/CD.",
+            "technical_challenges": [
+              "Conception d’une architecture scalable avec un frontend Next.js, un backend Express, un service IA en Python et une base de données PostgreSQL",
+              "Gestion de l’ingestion de données depuis l’API WeLoveDevs avec normalisation et contraintes de rate limit",
+              "Implémentation d’un système de recommandation basé sur des sentence transformers (all-MiniLM-L6-v2)",
+              "Utilisation de Prisma ORM avec PostgreSQL dans un environnement TypeScript",
+              "Déploiement d’un système fullstack avec plusieurs services (frontend, backend, base de données) et CI/CD via GitHub Actions",
+              "Optimisation des performances sur des opérations de filtrage et de recherche intensives en données"
+            ],
+            "features": [
+              "Système d’authentification utilisateur avec JWT, refresh tokens et cookies sécurisés",
+              "Recherche avancée avec filtres multi-tags (localisation, type de contrat, compétences)",
+              "Tableau de bord d’exploration des offres en temps réel",
+              "Interface entreprise pour la publication d’offres d’emploi",
+              "Panel administrateur pour la modération et la gestion",
+              "Pipeline de scraping et d’ingestion de données depuis WeLoveDevs",
+              "Système de scoring et de classement des offres",
+              "Tableau de bord d’analytics et de visualisation de données",
+              "Recommandations d’emploi basées sur l’IA selon le comportement utilisateur",
+              "Système de suivi des interactions utilisateurs"
+            ],
+            "technologies": [
+              "Next.js",
+              "React",
+              "TypeScript",
+              "Tailwind CSS",
+              "Node.js",
+              "Express",
+              "Python",
+              "PostgreSQL",
+              "Prisma",
+              "JWT",
+              "Docker",
+              "GitHub Actions",
+              "Sentence Transformers (all-MiniLM-L6-v2)"
+            ],
+            "role": "Contributeur backend et data : conception d’API, système d’authentification, modélisation de la base de données avec Prisma/PostgreSQL, pipeline de normalisation des données et intégration du système de recommandation IA. Participation également à l’architecture de déploiement et à l’optimisation des performances du système.",
+            "team_size": 4,
+            "duration": "5 semaines",
+            "status": "Entièrement fonctionnel et déployé, avec des pistes d’optimisation futures",
+            "image": "/novajob.png"
+        }
+        ]
+
+    }
+
+}

@@ -1,0 +1,38 @@
+.scard-container {
+    width: auto;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 40px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.scard-container:hover {
+    background: rgba(0, 255, 255, 0.1);
+    border-color: #00ffff;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 255, 255, 0.3);
+}
+
+.scard-container img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+
+.scard-container span {
+    color: #eddcff;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.scard-container:hover span {
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
+}

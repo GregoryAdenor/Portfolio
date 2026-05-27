@@ -1,0 +1,115 @@
+.skills-page {
+    min-height: 92vh;
+    width: 100vw;
+    padding-top: 8vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: 
+        radial-gradient(circle at 15% 15%, rgba(0, 255, 255, 0.12) 0%, transparent 50%),
+        radial-gradient(circle at 85% 85%, rgba(196, 181, 253, 0.08) 0%, transparent 60%),
+        linear-gradient(135deg, #0f0f1a 0%, #171725 100%);
+}
+
+.skills-container {
+    width: 95%; 
+    max-width: 1400px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills-container h2 {
+    font-size: 3.5rem;
+    margin-top: 0;
+    margin-bottom: 2.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+    background: linear-gradient(180deg, #ffffff 30%, #00ffff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    filter: drop-shadow(0 0 10px rgba(0, 255, 255, 0.3)) 
+            drop-shadow(0 0 30px rgba(0, 255, 255, 0.1));
+}
+
+.dashboard-panel {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: rgba(20, 20, 35, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    
+    border: 1px solid rgba(0, 255, 255, 0.25); 
+    border-radius: 24px;
+    padding: 3.5rem 3rem;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6), 
+                0 0 50px rgba(0, 255, 255, 0.05);
+    box-sizing: border-box;
+    gap: 2.5rem;
+}
+
+.tech-column {
+    display: flex;
+    align-items: center;
+    gap: 3rem; 
+    border-bottom: 1px solid rgba(0, 255, 255, 0.1); 
+    padding-bottom: 1.8rem;
+    width: 100%;
+}
+
+.tech-column:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.column-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    min-width: 220px; 
+    flex-shrink: 0;
+}
+
+.column-icon {
+    font-size: 1.5rem; 
+}
+
+.tech-column h4 {
+    color: #c4b5fd;
+    margin: 0;
+    font-size: 1.3rem; 
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.skills-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.2rem; 
+    width: 100%;
+}
+
+@media (max-width: 968px) {
+    .skills-container h2 {
+        font-size: 2.5rem;
+    }
+    .tech-column {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5rem;
+    }
+    .column-header {
+        min-width: 100%;
+    }
+    .dashboard-panel {
+        padding: 2rem 1.5rem;
+    }
+}
