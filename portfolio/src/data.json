@@ -97,7 +97,16 @@
             {
                 "tech": "MySql",
                 "image": "https://skillicons.dev/icons?i=mysql"
+            },
+            {
+                "tech": "PostgreSQL",
+                "image": "https://skillicons.dev/icons?i=postgresql"
+            },
+            {
+                "tech": "Prisma",
+                "image": "https://skillicons.dev/icons?i=prisma"
             }
+
         ]
     },
 
