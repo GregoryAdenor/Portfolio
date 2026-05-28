@@ -52,12 +52,20 @@
                 "image": "https://skillicons.dev/icons?i=react"
             },
             {
-                "tech": "Vue",
-                "image": "https://skillicons.dev/icons?i=vue"
-            },
-            {
                 "tech": "Vite",
                 "image": "https://skillicons.dev/icons?i=vite"
+            },
+            {
+                "tech": "TypeScript",
+                "image": "https://skillicons.dev/icons?i=typescript"
+            },
+            {
+                "tech": "Tailwind CSS",
+                "image": "https://skillicons.dev/icons?i=tailwind"
+            },
+            {
+                "tech": "Next.js",
+                "image": "https://skillicons.dev/icons?i=nextjs"
             }
 
         ],
@@ -74,6 +82,10 @@
             {
                 "tech": "PHP",
                 "image": "https://skillicons.dev/icons?i=php"
+            },
+            {
+                "tech": "TypeScript",
+                "image": "https://skillicons.dev/icons?i=typescript"
             }
         ],
 
