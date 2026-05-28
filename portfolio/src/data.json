@@ -237,7 +237,40 @@
               "duration": "5 weeks",
               "status": "Fully functional and deployed, with potential for further optimization",
               "image": "/novajob.png"
-            }
+            },
+        {
+          "id": 4,
+          "title": "CozyBot",
+          "type": "AI Chatbot Project",
+          "context": "Student AI chatbot project focused on recommendation systems and conversational user experience.",
+          "subtitle": "Movie and series recommendation chatbot designed to reduce decision fatigue on streaming platforms.",
+          "description": "CozyBot is a conversational chatbot designed to help users quickly find movies and TV series recommendations without endlessly scrolling through streaming platforms. The project focused on improving user experience by providing personalized suggestions through natural conversations and sentiment analysis. The chatbot was accessible both through Discord and a web platform, allowing users to interact with the recommendation engine in a more intuitive and engaging way. The product concept targeted streaming platforms looking to improve content discovery and user engagement.",
+          "technical_challenges": [
+            "Designing conversational flows capable of generating relevant recommendations",
+            "Implementing sentiment analysis to better understand user preferences",
+            "Integrating the chatbot across both Discord and web interfaces",
+            "Creating a smooth recommendation experience without a database layer",
+            "Building a coherent product identity and landing page around the chatbot"
+          ],
+          "features": [
+            "Movie and TV show recommendations",
+            "Conversational chatbot interface",
+            "Sentiment analysis",
+            "Discord integration",
+            "Web platform interface",
+            "Landing page presentation"
+          ],
+          "technologies": [
+            "React",
+            "CSS",
+            "TypeScript",
+            "Express",
+            "Discord API"
+          ],
+          "role": "Backend-focused contribution on chatbot logic and conversational recommendation system implementation.",
+          "status": "Functional prototype usable locally",
+          "image": "/cozybot.png"
+        } 
         ],
         "fr": [
             {
@@ -366,6 +399,39 @@
             "duration": "5 semaines",
             "status": "Entièrement fonctionnel et déployé, avec des pistes d’optimisation futures",
             "image": "/novajob.png"
+        },
+        {
+          "id": 4,
+          "title": "CozyBot",
+          "type": "Projet IA / Chatbot",
+          "context": "Projet étudiant autour de l’intelligence artificielle conversationnelle et des systèmes de recommandation.",
+          "subtitle": "Chatbot de recommandation de films et séries conçu pour réduire la “scroll fatigue” sur les plateformes de streaming.",
+          "description": "CozyBot est un chatbot conversationnel conçu pour aider les utilisateurs à trouver rapidement des recommandations de films et de séries sans passer de longues minutes à parcourir des catalogues de streaming. Le projet avait pour objectif d’améliorer l’expérience utilisateur grâce à des recommandations générées à travers des échanges conversationnels et de l’analyse de sentiment. Le chatbot était accessible à la fois via Discord et via une plateforme web afin de proposer une expérience plus intuitive et engageante. Le concept ciblait principalement les plateformes de streaming souhaitant améliorer la découverte de contenu et l’engagement utilisateur.",
+          "technical_challenges": [
+            "Conception d’un système conversationnel capable de générer des recommandations pertinentes",
+            "Mise en place d’une analyse de sentiment pour mieux comprendre les préférences utilisateur",
+            "Intégration du chatbot sur Discord et sur une interface web",
+            "Création d’une expérience utilisateur fluide sans couche de base de données",
+            "Construction d’une identité produit cohérente avec landing page dédiée"
+          ],
+          "features": [
+            "Recommandation de films et séries",
+            "Interface conversationnelle",
+            "Analyse de sentiment",
+            "Intégration Discord",
+            "Interface web",
+            "Landing page de présentation"
+          ],
+          "technologies": [
+            "React",
+            "CSS",
+            "TypeScript",
+            "Express",
+            "Discord API"
+          ],
+          "role": "Contribution principalement orientée backend avec le développement de la logique conversationnelle et du système de recommandation.",
+          "status": "Prototype fonctionnel utilisable en local",
+          "image": "/cozybot.png"
         }
         ]
 
